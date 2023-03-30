@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA81624B29D42D40001176B0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BA81624A29D42D40001176B0 /* .gitignore */; };
+		BAFEF14B29D2B4C1004AF670 /* KeystoneSDKDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF14A29D2B4C1004AF670 /* KeystoneSDKDemo.swift */; };
+		BAFEF14D29D2B4C1004AF670 /* MianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF14C29D2B4C1004AF670 /* MianView.swift */; };
+		BAFEF14F29D2B4C3004AF670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFEF14E29D2B4C3004AF670 /* Assets.xcassets */; };
+		BAFEF15229D2B4C3004AF670 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFEF15129D2B4C3004AF670 /* Preview Assets.xcassets */; };
+		BAFEF15C29D2B91A004AF670 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = BAFEF15B29D2B91A004AF670 /* CodeScanner */; };
+		BAFEF15E29D2C024004AF670 /* MultiAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF15D29D2C024004AF670 /* MultiAccountsView.swift */; };
+		BAFEF16029D2C1FA004AF670 /* SignTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF15F29D2C1FA004AF670 /* SignTransaction.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA81624A29D42D40001176B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BAFEF14729D2B4C1004AF670 /* keystone-sdk-ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keystone-sdk-ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFEF14A29D2B4C1004AF670 /* KeystoneSDKDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeystoneSDKDemo.swift; sourceTree = "<group>"; };
+		BAFEF14C29D2B4C1004AF670 /* MianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianView.swift; sourceTree = "<group>"; };
+		BAFEF14E29D2B4C3004AF670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAFEF15129D2B4C3004AF670 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BAFEF15D29D2C024004AF670 /* MultiAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiAccountsView.swift; sourceTree = "<group>"; };
+		BAFEF15F29D2C1FA004AF670 /* SignTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTransaction.swift; sourceTree = "<group>"; };
+		BAFEF16429D2E9F1004AF670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAFEF14429D2B4C1004AF670 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFEF15C29D2B91A004AF670 /* CodeScanner in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAFEF13E29D2B4C1004AF670 = {
+			isa = PBXGroup;
+			children = (
+				BA81624A29D42D40001176B0 /* .gitignore */,
+				BAFEF15829D2B4DC004AF670 /* Packages */,
+				BAFEF14929D2B4C1004AF670 /* keystone-sdk-ios-demo */,
+				BAFEF14829D2B4C1004AF670 /* Products */,
+				BAFEF16129D2C77D004AF670 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAFEF14829D2B4C1004AF670 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAFEF14729D2B4C1004AF670 /* keystone-sdk-ios-demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAFEF14929D2B4C1004AF670 /* keystone-sdk-ios-demo */ = {
+			isa = PBXGroup;
+			children = (
+				BAFEF16429D2E9F1004AF670 /* Info.plist */,
+				BAFEF14A29D2B4C1004AF670 /* KeystoneSDKDemo.swift */,
+				BAFEF14C29D2B4C1004AF670 /* MianView.swift */,
+				BAFEF14E29D2B4C3004AF670 /* Assets.xcassets */,
+				BAFEF15029D2B4C3004AF670 /* Preview Content */,
+				BAFEF15D29D2C024004AF670 /* MultiAccountsView.swift */,
+				BAFEF15F29D2C1FA004AF670 /* SignTransaction.swift */,
+			);
+			path = "keystone-sdk-ios-demo";
+			sourceTree = "<group>";
+		};
+		BAFEF15029D2B4C3004AF670 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BAFEF15129D2B4C3004AF670 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BAFEF15829D2B4DC004AF670 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		BAFEF16129D2C77D004AF670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAFEF14629D2B4C1004AF670 /* keystone-sdk-ios-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAFEF15529D2B4C3004AF670 /* Build configuration list for PBXNativeTarget "keystone-sdk-ios-demo" */;
+			buildPhases = (
+				BAFEF14329D2B4C1004AF670 /* Sources */,
+				BAFEF14429D2B4C1004AF670 /* Frameworks */,
+				BAFEF14529D2B4C1004AF670 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "keystone-sdk-ios-demo";
+			packageProductDependencies = (
+				BAFEF15B29D2B91A004AF670 /* CodeScanner */,
+			);
+			productName = "keystone-sdk-ios-demo";
+			productReference = BAFEF14729D2B4C1004AF670 /* keystone-sdk-ios-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAFEF13F29D2B4C1004AF670 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BAFEF14629D2B4C1004AF670 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = BAFEF14229D2B4C1004AF670 /* Build configuration list for PBXProject "keystone-sdk-ios-demo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAFEF13E29D2B4C1004AF670;
+			packageReferences = (
+				BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				BA81624C29D590A2001176B0 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */,
+			);
+			productRefGroup = BAFEF14829D2B4C1004AF670 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAFEF14629D2B4C1004AF670 /* keystone-sdk-ios-demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAFEF14529D2B4C1004AF670 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFEF15229D2B4C3004AF670 /* Preview Assets.xcassets in Resources */,
+				BA81624B29D42D40001176B0 /* .gitignore in Resources */,
+				BAFEF14F29D2B4C3004AF670 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAFEF14329D2B4C1004AF670 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFEF14D29D2B4C1004AF670 /* MianView.swift in Sources */,
+				BAFEF15E29D2C024004AF670 /* MultiAccountsView.swift in Sources */,
+				BAFEF14B29D2B4C1004AF670 /* KeystoneSDKDemo.swift in Sources */,
+				BAFEF16029D2C1FA004AF670 /* SignTransaction.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAFEF15329D2B4C3004AF670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BAFEF15429D2B4C3004AF670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAFEF15629D2B4C3004AF670 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"keystone-sdk-ios-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = F626345NTG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "keystone-sdk-ios-demo/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For QR Code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keystone.keystone-sdk-ios-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAFEF15729D2B4C3004AF670 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"keystone-sdk-ios-demo/Preview Content\"";
+				DEVELOPMENT_TEAM = F626345NTG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "keystone-sdk-ios-demo/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "For QR Code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.keystone.keystone-sdk-ios-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAFEF14229D2B4C1004AF670 /* Build configuration list for PBXProject "keystone-sdk-ios-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFEF15329D2B4C3004AF670 /* Debug */,
+				BAFEF15429D2B4C3004AF670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAFEF15529D2B4C3004AF670 /* Build configuration list for PBXNativeTarget "keystone-sdk-ios-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAFEF15629D2B4C3004AF670 /* Debug */,
+				BAFEF15729D2B4C3004AF670 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BA81624C29D590A2001176B0 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeystoneHQ/keystone-sdk-ios/";
+			requirement = {
+				kind = exactVersion;
+				version = 0.0.1;
+			};
+		};
+		BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BAFEF15B29D2B91A004AF670 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BAFEF13F29D2B4C1004AF670 /* Project object */;
+}

@@ -1,0 +1,50 @@
+{
+  "pins" : [
+    {
+      "identity" : "bcswiftdcbor",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BlockchainCommons/BCSwiftDCBOR",
+      "state" : {
+        "revision" : "b2fc439f9a2cb33589c628f1688d1b10abff04ab",
+        "version" : "0.8.0"
+      }
+    },
+    {
+      "identity" : "codescanner",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/twostraws/CodeScanner",
+      "state" : {
+        "branch" : "main",
+        "revision" : "65cd76bf88532eb4bfeaeb08981e87907e5f8da4"
+      }
+    },
+    {
+      "identity" : "keystone-sdk-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/KeystoneHQ/keystone-sdk-ios/",
+      "state" : {
+        "revision" : "bf06f8f00a9eed98cff066b297014d9d5f7b9676",
+        "version" : "0.0.1"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/wolfmcnally/swift-collections",
+      "state" : {
+        "revision" : "53a8adc54374f620002a3b6401d39e0feb3c57ae",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "urkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/BlockchainCommons/URKit",
+      "state" : {
+        "revision" : "5acb679d95ea1c1336b0bc4730a1ddca6020d6ea",
+        "version" : "10.0.1"
+      }
+    }
+  ],
+  "version" : 2
+}
