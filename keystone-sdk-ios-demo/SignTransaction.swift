@@ -18,6 +18,7 @@ struct SignTransaction: View {
     @State private var errorMessage:String?;
     @StateObject private var viewModel: ViewModel
     private var keystoneSDK = KeystoneSDK()
+    
     private var timer = Timer.publish(every: 0.2, on: .main, in: .common).autoconnect()
     
     init(solSignRequest: SolSignRequest) {
@@ -78,13 +79,22 @@ struct SignTransaction: View {
 
 struct SignTransaction_Previews: PreviewProvider {
     static var previews: some View {
+//        let solSignRequest = SolSignRequest(
+//            requestId: "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+//            signData: "01000103c8d842a2f17fd7aab608ce2ea535a6e958dffa20caf669b347b911c4171965530f957620b228bae2b94c82ddd4c093983a67365555b737ec7ddc1117e61c72e0000000000000000000000000000000000000000000000000000000000000000010295cc2f1f39f3604718496ea00676d6a72ec66ad09d926e3ece34f565f18d201020200010c0200000000e1f50500000000",
+//            path: "m/44'/501'/0'/0'",
+//            xfp: "707EED6C",
+//            signType: .transaction,
+//            origin: "OKX"
+//        )
+
         let solSignRequest = SolSignRequest(
             requestId: "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
-            signData: "01000103c8d842a2f17fd7aab608ce2ea535a6e958dffa20caf669b347b911c4171965530f957620b228bae2b94c82ddd4c093983a67365555b737ec7ddc1117e61c72e0000000000000000000000000000000000000000000000000000000000000000010295cc2f1f39f3604718496ea00676d6a72ec66ad09d926e3ece34f565f18d201020200010c0200000000e1f50500000000",
+            signData: "48656c6c6f2c204b657973746f6e652e",
             path: "m/44'/501'/0'/0'",
-            xfp: "707EED6C",
-            signType: .transaction,
-            origin: "OKX"
+            xfp: "F23F9FD2",
+            signType: .message,
+            origin: "Solflare"
         )
         SignTransaction(solSignRequest: solSignRequest)
     }
@@ -98,7 +108,7 @@ extension SignTransaction {
 
         init (solSignRequest: SolSignRequest) {
             let solSDK = KeystoneSDK().sol
-            // change maxFragment to modify the qr code capacity, default 100
+            // change maxFragment to modify the qr code capacity, default 400
             KeystoneSDK.maxFragment = 200
             do {
                 self.encoder = try solSDK.generateSignRequest(solSignRequest: solSignRequest)

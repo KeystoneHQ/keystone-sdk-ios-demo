@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		BA81624B29D42D40001176B0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BA81624A29D42D40001176B0 /* .gitignore */; };
+		BA81625029D6D20B001176B0 /* SignBitcoinTxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81624F29D6D20B001176B0 /* SignBitcoinTxView.swift */; };
+		BA81625229D6D377001176B0 /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BA81625129D6D377001176B0 /* KeystoneSDK */; };
+		BA81625429DAB1A5001176B0 /* SignEthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81625329DAB1A4001176B0 /* SignEthView.swift */; };
+		BA81625629DAB1F8001176B0 /* UnsignedDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81625529DAB1F8001176B0 /* UnsignedDataViewModel.swift */; };
 		BAFEF14B29D2B4C1004AF670 /* KeystoneSDKDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF14A29D2B4C1004AF670 /* KeystoneSDKDemo.swift */; };
 		BAFEF14D29D2B4C1004AF670 /* MianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF14C29D2B4C1004AF670 /* MianView.swift */; };
 		BAFEF14F29D2B4C3004AF670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFEF14E29D2B4C3004AF670 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		BA81624A29D42D40001176B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		BA81624F29D6D20B001176B0 /* SignBitcoinTxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignBitcoinTxView.swift; sourceTree = "<group>"; };
+		BA81625329DAB1A4001176B0 /* SignEthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignEthView.swift; sourceTree = "<group>"; };
+		BA81625529DAB1F8001176B0 /* UnsignedDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsignedDataViewModel.swift; sourceTree = "<group>"; };
+		BA81625729DAD1FD001176B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BAFEF14729D2B4C1004AF670 /* keystone-sdk-ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keystone-sdk-ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFEF14A29D2B4C1004AF670 /* KeystoneSDKDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeystoneSDKDemo.swift; sourceTree = "<group>"; };
 		BAFEF14C29D2B4C1004AF670 /* MianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianView.swift; sourceTree = "<group>"; };
@@ -35,6 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAFEF15C29D2B91A004AF670 /* CodeScanner in Frameworks */,
+				BA81625229D6D377001176B0 /* KeystoneSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +53,7 @@
 		BAFEF13E29D2B4C1004AF670 = {
 			isa = PBXGroup;
 			children = (
+				BA81625729DAD1FD001176B0 /* README.md */,
 				BA81624A29D42D40001176B0 /* .gitignore */,
 				BAFEF15829D2B4DC004AF670 /* Packages */,
 				BAFEF14929D2B4C1004AF670 /* keystone-sdk-ios-demo */,
@@ -69,7 +79,10 @@
 				BAFEF14E29D2B4C3004AF670 /* Assets.xcassets */,
 				BAFEF15029D2B4C3004AF670 /* Preview Content */,
 				BAFEF15D29D2C024004AF670 /* MultiAccountsView.swift */,
+				BA81625329DAB1A4001176B0 /* SignEthView.swift */,
 				BAFEF15F29D2C1FA004AF670 /* SignTransaction.swift */,
+				BA81624F29D6D20B001176B0 /* SignBitcoinTxView.swift */,
+				BA81625529DAB1F8001176B0 /* UnsignedDataViewModel.swift */,
 			);
 			path = "keystone-sdk-ios-demo";
 			sourceTree = "<group>";
@@ -114,6 +127,7 @@
 			name = "keystone-sdk-ios-demo";
 			packageProductDependencies = (
 				BAFEF15B29D2B91A004AF670 /* CodeScanner */,
+				BA81625129D6D377001176B0 /* KeystoneSDK */,
 			);
 			productName = "keystone-sdk-ios-demo";
 			productReference = BAFEF14729D2B4C1004AF670 /* keystone-sdk-ios-demo.app */;
@@ -174,10 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA81625629DAB1F8001176B0 /* UnsignedDataViewModel.swift in Sources */,
+				BA81625029D6D20B001176B0 /* SignBitcoinTxView.swift in Sources */,
 				BAFEF14D29D2B4C1004AF670 /* MianView.swift in Sources */,
 				BAFEF15E29D2C024004AF670 /* MultiAccountsView.swift in Sources */,
 				BAFEF14B29D2B4C1004AF670 /* KeystoneSDKDemo.swift in Sources */,
 				BAFEF16029D2C1FA004AF670 /* SignTransaction.swift in Sources */,
+				BA81625429DAB1A5001176B0 /* SignEthView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +422,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BA81625129D6D377001176B0 /* KeystoneSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BA81624C29D590A2001176B0 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */;
+			productName = KeystoneSDK;
+		};
 		BAFEF15B29D2B91A004AF670 /* CodeScanner */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */;
