@@ -17,6 +17,8 @@ struct MainView: View {
         signType: .transaction,
         origin: "OKX"
     )
+    
+    let psbt = "70736274ff01007102000000011f907e04bf09d19c9aa9a6a3146f8ffb1fc9e23b581cb40a36f28c0128554d930100000000ffffffff02e80300000000000016001491428416b0f516840b67e56b58c17f2938b843863bc004000000000016001442e7376b213643a36241071463132c77d94b223e000000000001011f45c9040000000000160014192864cd17c8bbc87b24bf812d7eb55a1b05797f22060292dc856a817be4507fd231dcdb3eecfc87ed363b144f28ab332b2c0adce03bb718f23f9fd22c00008000000080000000800000000000000000220603945b57ad4bae8836cca9a54dde4c759f5b4ceb0e55478031294dcefe363eabae18707eed6c540000800000008000000080010000001e0000000000220202af541bcb89e5384ad417cb2f25c7dab06ff47ad18f7e30ea3dae2b769bec77e418707eed6c540000800000008000000080010000001f00000000"
 
     var body: some View {
         NavigationView {
@@ -35,6 +37,14 @@ struct MainView: View {
                     }
                     NavigationLink(destination: SignTransaction(solSignRequest: solSignRequest)) {
                         Text("Sign Transaction")
+                            .font(.system(size: 20, weight: .bold))
+                            .foregroundColor(Color.white)
+                            .frame(width: 280, height: 50)
+                            .background(Color.cyan)
+                            .cornerRadius(12)
+                    }
+                    NavigationLink(destination: SignBitcoinTxView(psbt: psbt.hexadecimal!)) {
+                        Text("Sign PSBT")
                             .font(.system(size: 20, weight: .bold))
                             .foregroundColor(Color.white)
                             .frame(width: 280, height: 50)

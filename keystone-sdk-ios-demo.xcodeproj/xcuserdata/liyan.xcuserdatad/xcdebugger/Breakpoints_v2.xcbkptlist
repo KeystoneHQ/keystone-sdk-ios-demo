@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "79082848-D215-40A3-89DB-167FD69CFA72"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9BE9DEC2-2782-413E-930C-4E8F03DD0985"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "keystone-sdk-ios-demo/SignTransaction.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "SignTransaction"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19A2805C-582D-4CEE-BA7A-2DBC68AB6D31"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/keystone-sdk-ios-demo-eefftzzgmzgomidtmnrzdldglcus/SourcePackages/checkouts/keystone-sdk-ios/Sources/KeystoneSDK/Chain/KeystoneBitcoinSDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "generatePSBT(psbt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF333774-19C9-4A58-8A9D-92B91ED9A144"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/keystone-sdk-ios-demo-eefftzzgmzgomidtmnrzdldglcus/SourcePackages/checkouts/keystone-sdk-ios/Sources/KeystoneSDK/Chain/KeystoneBitcoinSDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "generatePSBT(psbt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57AE6FC0-C8BB-4F4B-B328-2570C4DB993D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/keystone-sdk-ios-demo-eefftzzgmzgomidtmnrzdldglcus/SourcePackages/checkouts/keystone-sdk-ios/Sources/KeystoneSDK/Chain/KeystoneBaseSDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "urStringToEncoder(urString:ofError:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "57AE6FC0-C8BB-4F4B-B328-2570C4DB993D - 8c8dd2c2d747dfe4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KeystoneSDK.KeystoneBaseSDK.urStringToEncoder(urString: Swift.String, ofError: (Swift.String) -&gt; KeystoneSDK.KeystoneError) throws -&gt; URKit.UREncoder"
+                  moduleName = "keystone-sdk-ios-demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liyan/Library/Developer/Xcode/DerivedData/keystone-sdk-ios-demo-eefftzzgmzgomidtmnrzdldglcus/SourcePackages/checkouts/keystone-sdk-ios/Sources/KeystoneSDK/Chain/KeystoneBaseSDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "57AE6FC0-C8BB-4F4B-B328-2570C4DB993D - 8c8dd2c2d747dfe4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KeystoneSDK.KeystoneBaseSDK.urStringToEncoder(urString: Swift.String, ofError: (Swift.String) -&gt; KeystoneSDK.KeystoneError) throws -&gt; URKit.UREncoder"
+                  moduleName = "keystone-sdk-ios-demo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liyan/Library/Developer/Xcode/DerivedData/keystone-sdk-ios-demo-eefftzzgmzgomidtmnrzdldglcus/SourcePackages/checkouts/keystone-sdk-ios/Sources/KeystoneSDK/Chain/KeystoneBaseSDK.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "52"
+                  endingLineNumber = "52"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1EBD4E3-40F4-46C0-834D-0F9952C8378F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Library/Developer/Xcode/DerivedData/keystone-sdk-ios-demo-eefftzzgmzgomidtmnrzdldglcus/SourcePackages/checkouts/keystone-sdk-ios/Sources/KeystoneSDK/Chain/KeystoneBaseSDK.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "urStringToEncoder(urString:ofError:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

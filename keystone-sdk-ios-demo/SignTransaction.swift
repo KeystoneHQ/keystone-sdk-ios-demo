@@ -18,6 +18,7 @@ struct SignTransaction: View {
     @State private var errorMessage:String?;
     @StateObject private var viewModel: ViewModel
     private var keystoneSDK = KeystoneSDK()
+    
     private var timer = Timer.publish(every: 0.2, on: .main, in: .common).autoconnect()
     
     init(solSignRequest: SolSignRequest) {
