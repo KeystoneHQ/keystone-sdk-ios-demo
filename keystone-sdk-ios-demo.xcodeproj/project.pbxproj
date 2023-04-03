@@ -26,6 +26,7 @@
 		BA81624F29D6D20B001176B0 /* SignBitcoinTxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignBitcoinTxView.swift; sourceTree = "<group>"; };
 		BA81625329DAB1A4001176B0 /* SignEthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignEthView.swift; sourceTree = "<group>"; };
 		BA81625529DAB1F8001176B0 /* UnsignedDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsignedDataViewModel.swift; sourceTree = "<group>"; };
+		BA81625729DAD1FD001176B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BAFEF14729D2B4C1004AF670 /* keystone-sdk-ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keystone-sdk-ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFEF14A29D2B4C1004AF670 /* KeystoneSDKDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeystoneSDKDemo.swift; sourceTree = "<group>"; };
 		BAFEF14C29D2B4C1004AF670 /* MianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianView.swift; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		BAFEF13E29D2B4C1004AF670 = {
 			isa = PBXGroup;
 			children = (
+				BA81625729DAD1FD001176B0 /* README.md */,
 				BA81624A29D42D40001176B0 /* .gitignore */,
 				BAFEF15829D2B4DC004AF670 /* Packages */,
 				BAFEF14929D2B4C1004AF670 /* keystone-sdk-ios-demo */,
