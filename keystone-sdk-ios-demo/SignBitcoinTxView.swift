@@ -18,7 +18,7 @@ struct SignBitcoinTxView: View {
     init(psbt: Data) {
         do {
             let keystoneSDK = KeystoneSDK()
-            KeystoneSDK.maxFragment = 200 // default 400
+            KeystoneSDK.maxFragmentLen = 200 // default 400
             let qrCode = try keystoneSDK.btc.generatePSBT(psbt: psbt)
             qrContent = qrCode.nextPart()
             if qrCode.isSinglePart {
