@@ -109,7 +109,7 @@ extension SignTransaction {
         init (solSignRequest: SolSignRequest) {
             let solSDK = KeystoneSDK().sol
             // change maxFragment to modify the qr code capacity, default 400
-            KeystoneSDK.maxFragment = 200
+            KeystoneSDK.maxFragmentLen = 200
             do {
                 self.encoder = try solSDK.generateSignRequest(solSignRequest: solSignRequest)
             } catch {
