@@ -8,32 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		BA81624B29D42D40001176B0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BA81624A29D42D40001176B0 /* .gitignore */; };
-		BA81625029D6D20B001176B0 /* SignBitcoinTxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81624F29D6D20B001176B0 /* SignBitcoinTxView.swift */; };
-		BA81625229D6D377001176B0 /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BA81625129D6D377001176B0 /* KeystoneSDK */; };
-		BA81625429DAB1A5001176B0 /* SignEthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81625329DAB1A4001176B0 /* SignEthView.swift */; };
-		BA81625629DAB1F8001176B0 /* UnsignedDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA81625529DAB1F8001176B0 /* UnsignedDataViewModel.swift */; };
+		BA8B451829E7A17A001B296C /* AnimatedQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B451729E7A17A001B296C /* AnimatedQRCode.swift */; };
+		BA8B452029E7ACF8001B296C /* AnimatedScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B451F29E7ACF8001B296C /* AnimatedScanner.swift */; };
+		BA8B452229E7AE08001B296C /* Tron.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452129E7AE08001B296C /* Tron.swift */; };
+		BA8B452529E7B119001B296C /* Bitcoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452429E7B119001B296C /* Bitcoin.swift */; };
+		BA8B452729E7E06E001B296C /* Ethereum.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452629E7E06E001B296C /* Ethereum.swift */; };
+		BA8B452929E7E60E001B296C /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452829E7E60E001B296C /* MockData.swift */; };
+		BA8B452B29E7ED67001B296C /* Solana.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452A29E7ED67001B296C /* Solana.swift */; };
+		BA8B452D29E7EEF7001B296C /* Cosmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452C29E7EEF7001B296C /* Cosmos.swift */; };
+		BA8B453029E7F00F001B296C /* MultiAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */; };
+		BA8B453329E800BF001B296C /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BA8B453229E800BF001B296C /* KeystoneSDK */; };
 		BAFEF14B29D2B4C1004AF670 /* KeystoneSDKDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF14A29D2B4C1004AF670 /* KeystoneSDKDemo.swift */; };
 		BAFEF14D29D2B4C1004AF670 /* MianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF14C29D2B4C1004AF670 /* MianView.swift */; };
 		BAFEF14F29D2B4C3004AF670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFEF14E29D2B4C3004AF670 /* Assets.xcassets */; };
 		BAFEF15229D2B4C3004AF670 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFEF15129D2B4C3004AF670 /* Preview Assets.xcassets */; };
 		BAFEF15C29D2B91A004AF670 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = BAFEF15B29D2B91A004AF670 /* CodeScanner */; };
-		BAFEF15E29D2C024004AF670 /* MultiAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF15D29D2C024004AF670 /* MultiAccountsView.swift */; };
-		BAFEF16029D2C1FA004AF670 /* SignTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFEF15F29D2C1FA004AF670 /* SignTransaction.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BA81624A29D42D40001176B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		BA81624F29D6D20B001176B0 /* SignBitcoinTxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignBitcoinTxView.swift; sourceTree = "<group>"; };
-		BA81625329DAB1A4001176B0 /* SignEthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignEthView.swift; sourceTree = "<group>"; };
-		BA81625529DAB1F8001176B0 /* UnsignedDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsignedDataViewModel.swift; sourceTree = "<group>"; };
 		BA81625729DAD1FD001176B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA8B451729E7A17A001B296C /* AnimatedQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedQRCode.swift; sourceTree = "<group>"; };
+		BA8B451F29E7ACF8001B296C /* AnimatedScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedScanner.swift; sourceTree = "<group>"; };
+		BA8B452129E7AE08001B296C /* Tron.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tron.swift; sourceTree = "<group>"; };
+		BA8B452429E7B119001B296C /* Bitcoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bitcoin.swift; sourceTree = "<group>"; };
+		BA8B452629E7E06E001B296C /* Ethereum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ethereum.swift; sourceTree = "<group>"; };
+		BA8B452829E7E60E001B296C /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		BA8B452A29E7ED67001B296C /* Solana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solana.swift; sourceTree = "<group>"; };
+		BA8B452C29E7EEF7001B296C /* Cosmos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosmos.swift; sourceTree = "<group>"; };
+		BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiAccountsView.swift; sourceTree = "<group>"; };
 		BAFEF14729D2B4C1004AF670 /* keystone-sdk-ios-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "keystone-sdk-ios-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFEF14A29D2B4C1004AF670 /* KeystoneSDKDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeystoneSDKDemo.swift; sourceTree = "<group>"; };
 		BAFEF14C29D2B4C1004AF670 /* MianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MianView.swift; sourceTree = "<group>"; };
 		BAFEF14E29D2B4C3004AF670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFEF15129D2B4C3004AF670 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		BAFEF15D29D2C024004AF670 /* MultiAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiAccountsView.swift; sourceTree = "<group>"; };
-		BAFEF15F29D2C1FA004AF670 /* SignTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignTransaction.swift; sourceTree = "<group>"; };
 		BAFEF16429D2E9F1004AF670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -43,13 +51,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAFEF15C29D2B91A004AF670 /* CodeScanner in Frameworks */,
-				BA81625229D6D377001176B0 /* KeystoneSDK in Frameworks */,
+				BA8B453329E800BF001B296C /* KeystoneSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BA8B451429E79DD0001B296C /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B451729E7A17A001B296C /* AnimatedQRCode.swift */,
+				BA8B451F29E7ACF8001B296C /* AnimatedScanner.swift */,
+			);
+			name = QRCode;
+			sourceTree = "<group>";
+		};
+		BA8B452329E7B0D2001B296C /* SignTransaction */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B452129E7AE08001B296C /* Tron.swift */,
+				BA8B452429E7B119001B296C /* Bitcoin.swift */,
+				BA8B452629E7E06E001B296C /* Ethereum.swift */,
+				BA8B452A29E7ED67001B296C /* Solana.swift */,
+				BA8B452C29E7EEF7001B296C /* Cosmos.swift */,
+			);
+			path = SignTransaction;
+			sourceTree = "<group>";
+		};
+		BA8B452E29E7EFF4001B296C /* ConnectWallet */ = {
+			isa = PBXGroup;
+			children = (
+				BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */,
+			);
+			path = ConnectWallet;
+			sourceTree = "<group>";
+		};
 		BAFEF13E29D2B4C1004AF670 = {
 			isa = PBXGroup;
 			children = (
@@ -73,16 +110,15 @@
 		BAFEF14929D2B4C1004AF670 /* keystone-sdk-ios-demo */ = {
 			isa = PBXGroup;
 			children = (
+				BA8B452E29E7EFF4001B296C /* ConnectWallet */,
+				BA8B452329E7B0D2001B296C /* SignTransaction */,
+				BA8B451429E79DD0001B296C /* QRCode */,
 				BAFEF16429D2E9F1004AF670 /* Info.plist */,
 				BAFEF14A29D2B4C1004AF670 /* KeystoneSDKDemo.swift */,
 				BAFEF14C29D2B4C1004AF670 /* MianView.swift */,
 				BAFEF14E29D2B4C3004AF670 /* Assets.xcassets */,
 				BAFEF15029D2B4C3004AF670 /* Preview Content */,
-				BAFEF15D29D2C024004AF670 /* MultiAccountsView.swift */,
-				BA81625329DAB1A4001176B0 /* SignEthView.swift */,
-				BAFEF15F29D2C1FA004AF670 /* SignTransaction.swift */,
-				BA81624F29D6D20B001176B0 /* SignBitcoinTxView.swift */,
-				BA81625529DAB1F8001176B0 /* UnsignedDataViewModel.swift */,
+				BA8B452829E7E60E001B296C /* MockData.swift */,
 			);
 			path = "keystone-sdk-ios-demo";
 			sourceTree = "<group>";
@@ -127,7 +163,7 @@
 			name = "keystone-sdk-ios-demo";
 			packageProductDependencies = (
 				BAFEF15B29D2B91A004AF670 /* CodeScanner */,
-				BA81625129D6D377001176B0 /* KeystoneSDK */,
+				BA8B453229E800BF001B296C /* KeystoneSDK */,
 			);
 			productName = "keystone-sdk-ios-demo";
 			productReference = BAFEF14729D2B4C1004AF670 /* keystone-sdk-ios-demo.app */;
@@ -159,7 +195,7 @@
 			mainGroup = BAFEF13E29D2B4C1004AF670;
 			packageReferences = (
 				BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */,
-				BA81624C29D590A2001176B0 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */,
+				BA8B453129E800BF001B296C /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */,
 			);
 			productRefGroup = BAFEF14829D2B4C1004AF670 /* Products */;
 			projectDirPath = "";
@@ -188,13 +224,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA81625629DAB1F8001176B0 /* UnsignedDataViewModel.swift in Sources */,
-				BA81625029D6D20B001176B0 /* SignBitcoinTxView.swift in Sources */,
+				BA8B452B29E7ED67001B296C /* Solana.swift in Sources */,
 				BAFEF14D29D2B4C1004AF670 /* MianView.swift in Sources */,
-				BAFEF15E29D2C024004AF670 /* MultiAccountsView.swift in Sources */,
+				BA8B452929E7E60E001B296C /* MockData.swift in Sources */,
+				BA8B452229E7AE08001B296C /* Tron.swift in Sources */,
 				BAFEF14B29D2B4C1004AF670 /* KeystoneSDKDemo.swift in Sources */,
-				BAFEF16029D2C1FA004AF670 /* SignTransaction.swift in Sources */,
-				BA81625429DAB1A5001176B0 /* SignEthView.swift in Sources */,
+				BA8B453029E7F00F001B296C /* MultiAccountsView.swift in Sources */,
+				BA8B452529E7B119001B296C /* Bitcoin.swift in Sources */,
+				BA8B452729E7E06E001B296C /* Ethereum.swift in Sources */,
+				BA8B452029E7ACF8001B296C /* AnimatedScanner.swift in Sources */,
+				BA8B452D29E7EEF7001B296C /* Cosmos.swift in Sources */,
+				BA8B451829E7A17A001B296C /* AnimatedQRCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,12 +443,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BA81624C29D590A2001176B0 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */ = {
+		BA8B453129E800BF001B296C /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/KeystoneHQ/keystone-sdk-ios/";
 			requirement = {
-				kind = exactVersion;
-				version = 0.0.1;
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.2.1;
 			};
 		};
 		BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
@@ -422,9 +462,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BA81625129D6D377001176B0 /* KeystoneSDK */ = {
+		BA8B453229E800BF001B296C /* KeystoneSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BA81624C29D590A2001176B0 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */;
+			package = BA8B453129E800BF001B296C /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */;
 			productName = KeystoneSDK;
 		};
 		BAFEF15B29D2B91A004AF670 /* CodeScanner */ = {
