@@ -69,4 +69,14 @@ class MockData {
             name: "TONE", symbol: "TronOne", decimals: 8
         )
     )
+
+    static let aptosSignRequest = AptosSignRequest(
+        requestId: "7AFD5E09-9267-43FB-A02E-08C4A09417EC",
+        signData: "4150544F530A6D6573736167653A207665726966795F77616C6C65740A6E6F6E63653A20373134363136353534363430333235393636333033313734",
+        signType: .single,
+        accounts: [
+            AptosSignRequest.Account(path: "m/44'/637'/0'/0'/0'", xfp: "f23f9fd2")
+        ],
+        origin: "Petra"
+    )
 }
