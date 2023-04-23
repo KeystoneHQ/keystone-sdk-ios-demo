@@ -28,15 +28,6 @@
       }
     },
     {
-      "identity" : "keystone-sdk-ios",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/KeystoneHQ/keystone-sdk-ios/",
-      "state" : {
-        "revision" : "7541b03bab4130bd889bd2e5e1e0ddedec690c6a",
-        "version" : "0.2.1"
-      }
-    },
-    {
       "identity" : "swift-collections",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/wolfmcnally/swift-collections",

@@ -26,7 +26,7 @@ extension String {
 
 class MockData {
 
-    static let psbt = "70736274ff0100710200000001a6e52d0cf7bec16c454dc590966906f2f711d2ffb720bf141b41fd0cd3146a220000000000ffffffff02809698000000000016001473071357788c861241e6e991cc1f7933aa87444440ff100500000000160014d98f4c248e06e54d08bafdc213912aca80c0a34a000000000001011f00e1f50500000000160014f6de6edbdef5f0e62777c14e6e322ecb27c7824b22060341d94247fabfc265035f0a51bcfaca3b65709a7876698769a336b4142faa4bad18f23f9fd254000080000000800000008000000000000000000000220203ab7173024786ba14179c33db3b7bdf630039c24089409637323b560a4b1d025618f23f9fd2540000800000008000000080010000000000000000".hexadecimal
+    static let psbt = "70736274ff0100520200000001a6e52d0cf7bec16c454dc590966906f2f711d2ffb720bf141b41fd0cd3146a220000000000ffffffff01c09ee60500000000160014957b6d19b36bab91b518b6dd991b75c467c9f35a000000000001011f00e1f50500000000160014f6de6edbdef5f0e62777c14e6e322ecb27c7824b22060296106b8bba9c7870673756c86e7d883b6979182403a61afe917fb550ebdb93c318f23f9fd22c000080020000800000008000000000000000000000".hexadecimal
 
     static let ethSignRequest = EthSignRequest(
         requestId: "6c3633c0-02c0-4313-9cd7-e25f4f296729",
@@ -78,5 +78,73 @@ class MockData {
             AptosSignRequest.Account(path: "m/44'/637'/0'/0'/0'", xfp: "f23f9fd2")
         ],
         origin: "Petra"
+    )
+
+    static let ltcTransaction = LitecoinTransaction (
+        fee: 2250,
+        inputs: [
+            LitecoinTransaction.Input(
+                hash: "a59bcbaaae11ba5938434e2d4348243e5e392551156c4a3e88e7bdc0b2a8f663",
+                index: 1,
+                utxo: LitecoinTransaction.Input.Utxo(
+                    publicKey: "035684d200e10bc1a3e2bd7d59e58a07f2f19ef968725e18f1ed65e13396ab9466",
+                    value: 18519750
+                ),
+                ownerKeyPath: "m/49'/2'/0'/0/0"
+            )
+        ],
+        outputs: [
+            Output(address: "MUfnaSqZjggTrHA2raCJ9kxpP2hM6zezKw", value: 10000),
+            Output(address: "MK9aTexgpbRuMPqGpMERcjJ8hLJbAS31Nx", value: 18507500, isChange: true, changeAddressPath: "M/49'/2'/0'/0/0")
+        ]
+    )
+    static let ltcSignRequest = KeystoneSignRequest<LitecoinTransaction>(
+        requestId: "cc946be2-8e4c-42be-a321-56a53a8cf516",
+        signData: ltcTransaction,
+        xfp: "F23F9FD2"
+    )
+
+    static let dashTransaction = UtxoBaseTransaction (
+        fee: 2250,
+        inputs: [
+            Input(
+                hash: "a59bcbaaae11ba5938434e2d4348243e5e392551156c4a3e88e7bdc0b2a8f663",
+                index: 1,
+                value: 18519750,
+                pubkey: "03cf51a0e4f926e50177d3a662eb5cc38728828cec249ef42582e77e5503675314",
+                ownerKeyPath: "m/44'/5'/0'/0/0"
+            ),
+        ],
+        outputs: [
+            Output(address: "XphpGezU3DUKHk87v2DoL4r7GhZUvCvvbm", value: 10000),
+            Output(address: "XfmecwGwcPBR7pXTqrn26jTjNe8a4fvcSL", value: 18507500, isChange: true, changeAddressPath: "M/44'/5'/0'/0/0")
+        ]
+    )
+    static let dashSignRequest = KeystoneSignRequest<UtxoBaseTransaction>(
+        requestId: "cc946be2-8e4c-42be-a321-56a53a8cf516",
+        signData: dashTransaction,
+        xfp: "F23F9FD2"
+    )
+
+    static let bchTransaction = UtxoBaseTransaction (
+        fee: 2250,
+        inputs: [
+            Input(
+                hash: "a59bcbaaae11ba5938434e2d4348243e5e392551156c4a3e88e7bdc0b2a8f663",
+                index: 1,
+                value: 18519750,
+                pubkey: "025ad49879cc8f1f91a210c6a2762fe4904ef0d4f17fd124b11b86135e4cb9143d",
+                ownerKeyPath: "m/44'/145'/0'/0/0"
+            ),
+        ],
+        outputs: [
+            Output(address: "bitcoincash:qzrxqxsx0lfzyk4ht60a5hwwtr2xjvtxmu0qhkusnx", value: 10000),
+            Output(address: "bitcoincash:qpgw8p85ysnjutpsk6u490ytydmgdlmc6vzxu680su", value: 18507500, isChange: true, changeAddressPath: "M/44'/145'/0'/0/0")
+        ]
+    )
+    static let bchSignRequest = KeystoneSignRequest<UtxoBaseTransaction>(
+        requestId: "cc946be2-8e4c-42be-a321-56a53a8cf516",
+        signData: bchTransaction,
+        xfp: "F23F9FD2"
     )
 }
