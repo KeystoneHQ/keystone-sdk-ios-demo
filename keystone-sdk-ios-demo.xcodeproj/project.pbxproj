@@ -18,7 +18,7 @@
 		BA8B452B29E7ED67001B296C /* Solana.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452A29E7ED67001B296C /* Solana.swift */; };
 		BA8B452D29E7EEF7001B296C /* Cosmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452C29E7EEF7001B296C /* Cosmos.swift */; };
 		BA8B453029E7F00F001B296C /* MultiAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */; };
-		BAF14A9029EE4189000405EC /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BAF14A8F29EE4189000405EC /* KeystoneSDK */; };
+		BADF692929F616BA00318655 /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BADF692829F616BA00318655 /* KeystoneSDK */; };
 		BAF14A9229F23DCF000405EC /* Litecoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF14A9129F23DCF000405EC /* Litecoin.swift */; };
 		BAF14A9429F278B1000405EC /* Dash.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF14A9329F278B1000405EC /* Dash.swift */; };
 		BAF14A9629F27C9E000405EC /* Bch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF14A9529F27C9E000405EC /* Bch.swift */; };
@@ -43,7 +43,6 @@
 		BA8B452A29E7ED67001B296C /* Solana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solana.swift; sourceTree = "<group>"; };
 		BA8B452C29E7EEF7001B296C /* Cosmos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosmos.swift; sourceTree = "<group>"; };
 		BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiAccountsView.swift; sourceTree = "<group>"; };
-		BAF14A8E29EE4163000405EC /* keystone-sdk-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "keystone-sdk-ios"; path = "../keystone-sdk-ios"; sourceTree = "<group>"; };
 		BAF14A9129F23DCF000405EC /* Litecoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litecoin.swift; sourceTree = "<group>"; };
 		BAF14A9329F278B1000405EC /* Dash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dash.swift; sourceTree = "<group>"; };
 		BAF14A9529F27C9E000405EC /* Bch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bch.swift; sourceTree = "<group>"; };
@@ -213,6 +212,7 @@
 			mainGroup = BAFEF13E29D2B4C1004AF670;
 			packageReferences = (
 				BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				BADF692729F616BA00318655 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */,
 			);
 			productRefGroup = BAFEF14829D2B4C1004AF670 /* Products */;
 			projectDirPath = "";
@@ -489,6 +489,7 @@
 		};
 		BA8B453229E800BF001B296C /* KeystoneSDK */ = {
 			isa = XCSwiftPackageProductDependency;
+			package = BADF692729F616BA00318655 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */;
 			productName = KeystoneSDK;
 		};
 		BAFEF15B29D2B91A004AF670 /* CodeScanner */ = {
