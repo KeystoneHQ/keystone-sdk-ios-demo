@@ -30,7 +30,7 @@
     {
       "identity" : "keystone-sdk-ios",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/KeystoneHQ/keystone-sdk-ios/",
+      "location" : "https://github.com/KeystoneHQ/keystone-sdk-ios.git",
       "state" : {
         "revision" : "ec2edb0528a9df413ba35c43692b4a07241fd6a5",
         "version" : "0.2.2"

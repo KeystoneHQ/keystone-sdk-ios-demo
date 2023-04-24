@@ -25,8 +25,8 @@ struct MainView: View {
         ChainView(name: "Tron", view: AnyView(Tron(tronSignRequest: MockData.tronSignRequest))),
         ChainView(name: "Aptos", view: AnyView(Aptos(aptosSignRequest: MockData.aptosSignRequest))),
         ChainView(name: "Litecoin", view: AnyView(Litecoin(ltcSignRequest: MockData.ltcSignRequest))),
-        ChainView(name: "Dash", view: AnyView(Dash(dashSignRequest: MockData.dashSignRequest))),
-        ChainView(name: "Bch", view: AnyView(Bch(bchSignRequest: MockData.bchSignRequest))),
+        ChainView(name: "DigitalCash", view: AnyView(Dash(dashSignRequest: MockData.dashSignRequest))),
+        ChainView(name: "BitcoinCash", view: AnyView(Bch(bchSignRequest: MockData.bchSignRequest))),
     ]
 
     var body: some View {

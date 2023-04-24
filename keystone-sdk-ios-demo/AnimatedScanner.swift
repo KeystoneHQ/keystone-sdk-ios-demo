@@ -11,14 +11,14 @@ import URKit
 import CodeScanner
 
 struct AnimatedScanner<T>: View {
-    private var parseFn: (String) throws -> T;
+    private var parseFn: (UR) throws -> T;
     private var onSucceed: (T) -> ()
     private var onError: (String) -> ()
 
     private let keystoneSDK = KeystoneSDK();
     @State var isPresentingScanner: Bool = false;
     
-    init(parseFn: @escaping (String)throws -> T, onSucceed: @escaping (T) -> (), onError: @escaping (String) -> ()) {
+    init(parseFn: @escaping (UR)throws -> T, onSucceed: @escaping (T) -> (), onError: @escaping (String) -> ()) {
         self.parseFn = parseFn;
         self.onSucceed = onSucceed;
         self.onError = onError;
@@ -43,7 +43,7 @@ struct AnimatedScanner<T>: View {
                     do {
                         let ur = try keystoneSDK.decodeQR(qrCode: result.string)
                         if ur != nil {
-                            let scanResult = try parseFn(ur!.cbor)
+                            let scanResult = try parseFn(ur!)
                             isPresentingScanner = false
                             onSucceed(scanResult)
                         }

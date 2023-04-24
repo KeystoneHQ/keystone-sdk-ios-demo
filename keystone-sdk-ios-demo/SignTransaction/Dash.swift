@@ -30,7 +30,7 @@ struct Dash: View {
 
     var body: some View {
         VStack {
-            Text("Sign Dash Transaction")
+            Text("Sign DigitalCash Transaction")
             AnimatedQRCode(urEncoder: self.encoder)
             AnimatedScanner<TransactionSignResult>(
                 parseFn: parseFn,
