@@ -23,6 +23,10 @@ struct MainView: View {
         ChainView(name: "Solana", view: AnyView(Solana(solSignRequest: MockData.solSignRequest))),
         ChainView(name: "Cosmos", view: AnyView(Cosmos(cosmosSignRequest: MockData.cosmosSignRequest))),
         ChainView(name: "Tron", view: AnyView(Tron(tronSignRequest: MockData.tronSignRequest))),
+        ChainView(name: "Aptos", view: AnyView(Aptos(aptosSignRequest: MockData.aptosSignRequest))),
+        ChainView(name: "Litecoin", view: AnyView(Litecoin(ltcSignRequest: MockData.ltcSignRequest))),
+        ChainView(name: "Dash", view: AnyView(Dash(dashSignRequest: MockData.dashSignRequest))),
+        ChainView(name: "Bch", view: AnyView(Bch(bchSignRequest: MockData.bchSignRequest))),
     ]
 
     var body: some View {
