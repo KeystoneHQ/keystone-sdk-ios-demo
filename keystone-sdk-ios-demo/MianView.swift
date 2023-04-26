@@ -27,6 +27,7 @@ struct MainView: View {
         ChainView(name: "Litecoin", view: AnyView(Litecoin(ltcSignRequest: MockData.ltcSignRequest))),
         ChainView(name: "DigitalCash", view: AnyView(Dash(dashSignRequest: MockData.dashSignRequest))),
         ChainView(name: "BitcoinCash", view: AnyView(Bch(bchSignRequest: MockData.bchSignRequest))),
+        ChainView(name: "Near", view: AnyView(Near(nearSignRequest: MockData.nearSignRequest))),
     ]
 
     var body: some View {
