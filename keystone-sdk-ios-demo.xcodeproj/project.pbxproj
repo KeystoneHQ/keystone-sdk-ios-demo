@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ACC669BC29F903E800F43A10 /* Near.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC669BB29F903E800F43A10 /* Near.swift */; };
 		BA81624B29D42D40001176B0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BA81624A29D42D40001176B0 /* .gitignore */; };
 		BA8B451829E7A17A001B296C /* AnimatedQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B451729E7A17A001B296C /* AnimatedQRCode.swift */; };
 		BA8B452029E7ACF8001B296C /* AnimatedScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B451F29E7ACF8001B296C /* AnimatedScanner.swift */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ACC669BA29F8FCB200F43A10 /* keystone-sdk-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "keystone-sdk-ios"; path = "../keystone-sdk-ios"; sourceTree = "<group>"; };
+		ACC669BB29F903E800F43A10 /* Near.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Near.swift; sourceTree = "<group>"; };
 		BA81624A29D42D40001176B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BA81625729DAD1FD001176B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA8B451729E7A17A001B296C /* AnimatedQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedQRCode.swift; sourceTree = "<group>"; };
@@ -87,6 +90,7 @@
 				BAF14A9129F23DCF000405EC /* Litecoin.swift */,
 				BAF14A9329F278B1000405EC /* Dash.swift */,
 				BAF14A9529F27C9E000405EC /* Bch.swift */,
+				ACC669BB29F903E800F43A10 /* Near.swift */,
 			);
 			path = SignTransaction;
 			sourceTree = "<group>";
@@ -146,6 +150,7 @@
 		BAFEF15829D2B4DC004AF670 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
+				ACC669BA29F8FCB200F43A10 /* keystone-sdk-ios */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -247,6 +252,7 @@
 				BA8B452529E7B119001B296C /* Bitcoin.swift in Sources */,
 				BA8B452729E7E06E001B296C /* Ethereum.swift in Sources */,
 				BAF14A9229F23DCF000405EC /* Litecoin.swift in Sources */,
+				ACC669BC29F903E800F43A10 /* Near.swift in Sources */,
 				BAF14A9429F278B1000405EC /* Dash.swift in Sources */,
 				BA8B452029E7ACF8001B296C /* AnimatedScanner.swift in Sources */,
 				BA8B452D29E7EEF7001B296C /* Cosmos.swift in Sources */,
