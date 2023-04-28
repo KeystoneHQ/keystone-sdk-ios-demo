@@ -18,6 +18,7 @@ struct MainView: View {
     
     let chains: [ChainView] = [
         ChainView(name: "Connect Wallet (MultiAccounts)", view: AnyView(MultiAccountsView())),
+        ChainView(name: "Connect Wallet (ArweaveAccount)", view: AnyView(ArweaveAccountView())),
         ChainView(name: "Bitcoin", view: AnyView(Bitcoin(psbt: MockData.psbt))),
         ChainView(name: "Ethereum", view: AnyView(Ethereum(ethSignRequest: MockData.ethSignRequest))),
         ChainView(name: "Solana", view: AnyView(Solana(solSignRequest: MockData.solSignRequest))),
@@ -28,6 +29,7 @@ struct MainView: View {
         ChainView(name: "DigitalCash", view: AnyView(Dash(dashSignRequest: MockData.dashSignRequest))),
         ChainView(name: "BitcoinCash", view: AnyView(Bch(bchSignRequest: MockData.bchSignRequest))),
         ChainView(name: "Near", view: AnyView(Near(nearSignRequest: MockData.nearSignRequest))),
+        ChainView(name: "Arweave", view: AnyView(Arweave(arweaveSignRequest: MockData.arweaveSignRequest))),
     ]
 
     var body: some View {

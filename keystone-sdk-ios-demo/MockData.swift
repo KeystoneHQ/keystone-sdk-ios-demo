@@ -23,6 +23,18 @@ extension String {
     }
 }
 
+extension Data {
+    func hexEncodedString() -> String {
+        return map { String(format: "%02hhx", $0) }.joined()
+    }
+}
+
+func encodeJSON(data: Encodable) -> Data {
+    let jsonEncoder = JSONEncoder()
+    jsonEncoder.keyEncodingStrategy = .convertToSnakeCase
+    return try! jsonEncoder.encode(data)
+}
+
 
 class MockData {
 
@@ -153,5 +165,24 @@ class MockData {
         signData: ["4000000039666363303732306130313664336331653834396438366231366437313339653034336566633438616464316337386633396333643266303065653938633037009FCC0720A016D3C1E849D86B16D7139E043EFC48ADD1C78F39C3D2F00EE98C07823E0CA1957100004000000039666363303732306130313664336331653834396438366231366437313339653034336566633438616464316337386633396333643266303065653938633037F0787E1CB1C22A1C63C24A37E4C6C656DD3CB049E6B7C17F75D01F0859EFB7D80100000003000000A1EDCCCE1BC2D3000000000000"],
         path: "m/44'/397'/0'",
         xfp: "F23F9FD2"
+    )
+
+    static let arweaveTransaction = ArweaveTransaction(
+        format: 2,
+        id: "",
+        lastTx: "gTH4F1aPYXv91JpKkn9IS6hHwQZ1AYyIeCRy2QiOeAETwIEMMXxxnFj0ekBFlq99",
+        owner: "",
+        target: "kyiw1Y4ylryGVRwtTatsG-IN9ew88GMlY-y_LG3FxGA",
+        quantity: "1000000000",
+        reward: "9107574386"
+    )
+
+    static let arweaveSignRequest = ArweaveSignRequest(
+        masterFingerprint: "F23F9FD2",
+        requestId: "9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d",
+        signData: encodeJSON(data: arweaveTransaction).hexEncodedString(),
+        saltLen: .zero,
+        signType: .transaction,
+        origin: "arconnect"
     )
 }

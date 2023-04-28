@@ -19,6 +19,8 @@
 		BA8B452D29E7EEF7001B296C /* Cosmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452C29E7EEF7001B296C /* Cosmos.swift */; };
 		BA8B453029E7F00F001B296C /* MultiAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */; };
 		BAA1392429F61E2D00616E2F /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BAA1392329F61E2D00616E2F /* KeystoneSDK */; };
+		BADE245029FA890900661829 /* Arweave.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE244F29FA890900661829 /* Arweave.swift */; };
+		BADE245229FBC0AC00661829 /* ArweaveAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE245129FBC0AC00661829 /* ArweaveAccount.swift */; };
 		BAF14A9229F23DCF000405EC /* Litecoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF14A9129F23DCF000405EC /* Litecoin.swift */; };
 		BAF14A9429F278B1000405EC /* Dash.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF14A9329F278B1000405EC /* Dash.swift */; };
 		BAF14A9629F27C9E000405EC /* Bch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF14A9529F27C9E000405EC /* Bch.swift */; };
@@ -31,7 +33,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ACC669BA29F8FCB200F43A10 /* keystone-sdk-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "keystone-sdk-ios"; path = "../keystone-sdk-ios"; sourceTree = "<group>"; };
 		ACC669BB29F903E800F43A10 /* Near.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Near.swift; sourceTree = "<group>"; };
 		BA81624A29D42D40001176B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BA81625729DAD1FD001176B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -44,6 +45,9 @@
 		BA8B452A29E7ED67001B296C /* Solana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solana.swift; sourceTree = "<group>"; };
 		BA8B452C29E7EEF7001B296C /* Cosmos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosmos.swift; sourceTree = "<group>"; };
 		BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiAccountsView.swift; sourceTree = "<group>"; };
+		BADE244E29FA88E800661829 /* keystone-sdk-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "keystone-sdk-ios"; path = "../keystone-sdk-ios"; sourceTree = "<group>"; };
+		BADE244F29FA890900661829 /* Arweave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arweave.swift; sourceTree = "<group>"; };
+		BADE245129FBC0AC00661829 /* ArweaveAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArweaveAccount.swift; sourceTree = "<group>"; };
 		BAF14A9129F23DCF000405EC /* Litecoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litecoin.swift; sourceTree = "<group>"; };
 		BAF14A9329F278B1000405EC /* Dash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dash.swift; sourceTree = "<group>"; };
 		BAF14A9529F27C9E000405EC /* Bch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bch.swift; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 				BAF14A9329F278B1000405EC /* Dash.swift */,
 				BAF14A9529F27C9E000405EC /* Bch.swift */,
 				ACC669BB29F903E800F43A10 /* Near.swift */,
+				BADE244F29FA890900661829 /* Arweave.swift */,
 			);
 			path = SignTransaction;
 			sourceTree = "<group>";
@@ -99,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */,
+				BADE245129FBC0AC00661829 /* ArweaveAccount.swift */,
 			);
 			path = ConnectWallet;
 			sourceTree = "<group>";
@@ -150,7 +156,7 @@
 		BAFEF15829D2B4DC004AF670 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				ACC669BA29F8FCB200F43A10 /* keystone-sdk-ios */,
+				BADE244E29FA88E800661829 /* keystone-sdk-ios */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BADE245029FA890900661829 /* Arweave.swift in Sources */,
 				BA8B452B29E7ED67001B296C /* Solana.swift in Sources */,
 				BAF14A9629F27C9E000405EC /* Bch.swift in Sources */,
 				BAFEF14D29D2B4C1004AF670 /* MianView.swift in Sources */,
@@ -253,6 +260,7 @@
 				BA8B452729E7E06E001B296C /* Ethereum.swift in Sources */,
 				BAF14A9229F23DCF000405EC /* Litecoin.swift in Sources */,
 				ACC669BC29F903E800F43A10 /* Near.swift in Sources */,
+				BADE245229FBC0AC00661829 /* ArweaveAccount.swift in Sources */,
 				BAF14A9429F278B1000405EC /* Dash.swift in Sources */,
 				BA8B452029E7ACF8001B296C /* AnimatedScanner.swift in Sources */,
 				BA8B452D29E7EEF7001B296C /* Cosmos.swift in Sources */,
