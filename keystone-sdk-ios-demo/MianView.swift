@@ -30,6 +30,7 @@ struct MainView: View {
         ChainView(name: "BitcoinCash", view: AnyView(Bch(bchSignRequest: MockData.bchSignRequest))),
         ChainView(name: "Near", view: AnyView(Near(nearSignRequest: MockData.nearSignRequest))),
         ChainView(name: "Arweave", view: AnyView(Arweave(arweaveSignRequest: MockData.arweaveSignRequest))),
+        ChainView(name: "Sui", view: AnyView(Sui(suiSignRequest: MockData.suiSignRequest))),
     ]
 
     var body: some View {
