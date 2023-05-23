@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		AC484ED82A16045100F0FAB6 /* Sui.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC484ED72A16045100F0FAB6 /* Sui.swift */; };
 		ACC669BC29F903E800F43A10 /* Near.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC669BB29F903E800F43A10 /* Near.swift */; };
+		BA03D4C02A1B475500AA1892 /* Cardano.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA03D4BF2A1B475500AA1892 /* Cardano.swift */; };
 		BA81624B29D42D40001176B0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BA81624A29D42D40001176B0 /* .gitignore */; };
 		BA8B451829E7A17A001B296C /* AnimatedQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B451729E7A17A001B296C /* AnimatedQRCode.swift */; };
 		BA8B452029E7ACF8001B296C /* AnimatedScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B451F29E7ACF8001B296C /* AnimatedScanner.swift */; };
@@ -36,6 +37,7 @@
 /* Begin PBXFileReference section */
 		AC484ED72A16045100F0FAB6 /* Sui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sui.swift; sourceTree = "<group>"; };
 		ACC669BB29F903E800F43A10 /* Near.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Near.swift; sourceTree = "<group>"; };
+		BA03D4BF2A1B475500AA1892 /* Cardano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardano.swift; sourceTree = "<group>"; };
 		BA81624A29D42D40001176B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		BA81625729DAD1FD001176B0 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA8B451729E7A17A001B296C /* AnimatedQRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedQRCode.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				ACC669BB29F903E800F43A10 /* Near.swift */,
 				BADE244F29FA890900661829 /* Arweave.swift */,
 				AC484ED72A16045100F0FAB6 /* Sui.swift */,
+				BA03D4BF2A1B475500AA1892 /* Cardano.swift */,
 			);
 			path = SignTransaction;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				BADE245029FA890900661829 /* Arweave.swift in Sources */,
 				BA8B452B29E7ED67001B296C /* Solana.swift in Sources */,
 				BAF14A9629F27C9E000405EC /* Bch.swift in Sources */,
+				BA03D4C02A1B475500AA1892 /* Cardano.swift in Sources */,
 				BAFEF14D29D2B4C1004AF670 /* MianView.swift in Sources */,
 				BA8B452929E7E60E001B296C /* MockData.swift in Sources */,
 				BA8B452229E7AE08001B296C /* Tron.swift in Sources */,
