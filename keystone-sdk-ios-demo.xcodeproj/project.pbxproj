@@ -10,6 +10,7 @@
 		AC484ED82A16045100F0FAB6 /* Sui.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC484ED72A16045100F0FAB6 /* Sui.swift */; };
 		ACC669BC29F903E800F43A10 /* Near.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC669BB29F903E800F43A10 /* Near.swift */; };
 		BA03D4C02A1B475500AA1892 /* Cardano.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA03D4BF2A1B475500AA1892 /* Cardano.swift */; };
+		BA03D4C52A284D0D00AA1892 /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BA03D4C42A284D0D00AA1892 /* KeystoneSDK */; };
 		BA81624B29D42D40001176B0 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = BA81624A29D42D40001176B0 /* .gitignore */; };
 		BA8B451829E7A17A001B296C /* AnimatedQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B451729E7A17A001B296C /* AnimatedQRCode.swift */; };
 		BA8B452029E7ACF8001B296C /* AnimatedScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B451F29E7ACF8001B296C /* AnimatedScanner.swift */; };
@@ -20,7 +21,7 @@
 		BA8B452B29E7ED67001B296C /* Solana.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452A29E7ED67001B296C /* Solana.swift */; };
 		BA8B452D29E7EEF7001B296C /* Cosmos.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452C29E7EEF7001B296C /* Cosmos.swift */; };
 		BA8B453029E7F00F001B296C /* MultiAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */; };
-		BAA1392429F61E2D00616E2F /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BAA1392329F61E2D00616E2F /* KeystoneSDK */; };
+		BAD3A88A2A2EC9DC00E60FD2 /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = BAD3A8892A2EC9DC00E60FD2 /* KeystoneSDK */; };
 		BADE245029FA890900661829 /* Arweave.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE244F29FA890900661829 /* Arweave.swift */; };
 		BADE245229FBC0AC00661829 /* ArweaveAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADE245129FBC0AC00661829 /* ArweaveAccount.swift */; };
 		BAF14A9229F23DCF000405EC /* Litecoin.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF14A9129F23DCF000405EC /* Litecoin.swift */; };
@@ -49,7 +50,6 @@
 		BA8B452A29E7ED67001B296C /* Solana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solana.swift; sourceTree = "<group>"; };
 		BA8B452C29E7EEF7001B296C /* Cosmos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cosmos.swift; sourceTree = "<group>"; };
 		BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiAccountsView.swift; sourceTree = "<group>"; };
-		BADE244E29FA88E800661829 /* keystone-sdk-ios */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "keystone-sdk-ios"; path = "../keystone-sdk-ios"; sourceTree = "<group>"; };
 		BADE244F29FA890900661829 /* Arweave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arweave.swift; sourceTree = "<group>"; };
 		BADE245129FBC0AC00661829 /* ArweaveAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArweaveAccount.swift; sourceTree = "<group>"; };
 		BAF14A9129F23DCF000405EC /* Litecoin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Litecoin.swift; sourceTree = "<group>"; };
@@ -70,7 +70,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAFEF15C29D2B91A004AF670 /* CodeScanner in Frameworks */,
-				BAA1392429F61E2D00616E2F /* KeystoneSDK in Frameworks */,
+				BA03D4C52A284D0D00AA1892 /* KeystoneSDK in Frameworks */,
+				BAD3A88A2A2EC9DC00E60FD2 /* KeystoneSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +163,6 @@
 		BAFEF15829D2B4DC004AF670 /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				BADE244E29FA88E800661829 /* keystone-sdk-ios */,
 			);
 			name = Packages;
 			sourceTree = "<group>";
@@ -192,7 +192,8 @@
 			name = "keystone-sdk-ios-demo";
 			packageProductDependencies = (
 				BAFEF15B29D2B91A004AF670 /* CodeScanner */,
-				BAA1392329F61E2D00616E2F /* KeystoneSDK */,
+				BA03D4C42A284D0D00AA1892 /* KeystoneSDK */,
+				BAD3A8892A2EC9DC00E60FD2 /* KeystoneSDK */,
 			);
 			productName = "keystone-sdk-ios-demo";
 			productReference = BAFEF14729D2B4C1004AF670 /* keystone-sdk-ios-demo.app */;
@@ -224,7 +225,7 @@
 			mainGroup = BAFEF13E29D2B4C1004AF670;
 			packageReferences = (
 				BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */,
-				BAA1392229F61E2D00616E2F /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */,
+				BAD3A8882A2EC9DC00E60FD2 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */,
 			);
 			productRefGroup = BAFEF14829D2B4C1004AF670 /* Products */;
 			projectDirPath = "";
@@ -481,12 +482,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		BAA1392229F61E2D00616E2F /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */ = {
+		BAD3A8882A2EC9DC00E60FD2 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/KeystoneHQ/keystone-sdk-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.2;
+				minimumVersion = 0.4.0;
 			};
 		};
 		BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
@@ -500,9 +501,13 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		BAA1392329F61E2D00616E2F /* KeystoneSDK */ = {
+		BA03D4C42A284D0D00AA1892 /* KeystoneSDK */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = BAA1392229F61E2D00616E2F /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */;
+			productName = KeystoneSDK;
+		};
+		BAD3A8892A2EC9DC00E60FD2 /* KeystoneSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BAD3A8882A2EC9DC00E60FD2 /* XCRemoteSwiftPackageReference "keystone-sdk-ios" */;
 			productName = KeystoneSDK;
 		};
 		BAFEF15B29D2B91A004AF670 /* CodeScanner */ = {
