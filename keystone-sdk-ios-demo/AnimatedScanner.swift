@@ -41,9 +41,12 @@ struct AnimatedScanner<T>: View {
                 switch response {
                 case .success(let result):
                     do {
-                        let ur = try keystoneSDK.decodeQR(qrCode: result.string)
-                        if ur != nil {
-                            let scanResult = try parseFn(ur!)
+                        let result = try keystoneSDK.decodeQR(qrCode: result.string)
+
+                        print("==============> progress: \(result.progress)")
+
+                        if result.progress == 100 {
+                            let scanResult = try parseFn(result.ur!)
                             isPresentingScanner = false
                             onSucceed(scanResult)
                         }
