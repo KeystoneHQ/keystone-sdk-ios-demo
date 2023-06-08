@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/KeystoneHQ/keystone-sdk-ios.git",
       "state" : {
-        "revision" : "58f587f7c4eb4b7860a4598cd142130f1344e7aa",
-        "version" : "0.4.0"
+        "revision" : "2f48b4d42ad97c632068d07ef83fae632c2adb32",
+        "version" : "0.4.1"
       }
     },
     {

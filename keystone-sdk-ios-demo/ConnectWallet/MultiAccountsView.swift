@@ -15,6 +15,7 @@ struct MultiAccountsView: View {
     
     private func onScanSucceed(result: MultiAccounts){
         self.result = "Scan result: \(result)"
+        print("============= \(result)")
     }
     
     private func onScanFailed(error: String){
