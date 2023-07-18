@@ -23,6 +23,7 @@ struct MainView: View {
         ChainView(name: "Ethereum", view: AnyView(Ethereum(ethSignRequest: MockData.ethSignRequest))),
         ChainView(name: "Solana", view: AnyView(Solana(solSignRequest: MockData.solSignRequest))),
         ChainView(name: "Cosmos", view: AnyView(Cosmos(cosmosSignRequest: MockData.cosmosSignRequest))),
+        ChainView(name: "Evm", view: AnyView(Evm(evmSignRequest: MockData.evmSignRequest))),
         ChainView(name: "Tron", view: AnyView(Tron(tronSignRequest: MockData.tronSignRequest))),
         ChainView(name: "Aptos", view: AnyView(Aptos(aptosSignRequest: MockData.aptosSignRequest))),
         ChainView(name: "Litecoin", view: AnyView(Litecoin(ltcSignRequest: MockData.ltcSignRequest))),

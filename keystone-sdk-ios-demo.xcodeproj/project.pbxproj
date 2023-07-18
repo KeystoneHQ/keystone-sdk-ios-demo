@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AC484ED82A16045100F0FAB6 /* Sui.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC484ED72A16045100F0FAB6 /* Sui.swift */; };
+		AC51DE0A2A65286000E6A6C5 /* Evm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51DE092A65286000E6A6C5 /* Evm.swift */; };
 		AC816EE42A41446A00D3ED1A /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AC816EE32A41446A00D3ED1A /* KeystoneSDK */; };
 		ACC669BC29F903E800F43A10 /* Near.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC669BB29F903E800F43A10 /* Near.swift */; };
 		BA03D4C02A1B475500AA1892 /* Cardano.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA03D4BF2A1B475500AA1892 /* Cardano.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		AC484ED72A16045100F0FAB6 /* Sui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sui.swift; sourceTree = "<group>"; };
+		AC51DE092A65286000E6A6C5 /* Evm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evm.swift; sourceTree = "<group>"; };
 		ACC669BB29F903E800F43A10 /* Near.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Near.swift; sourceTree = "<group>"; };
 		BA03D4BF2A1B475500AA1892 /* Cardano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardano.swift; sourceTree = "<group>"; };
 		BA81624A29D42D40001176B0 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				BA8B452A29E7ED67001B296C /* Solana.swift */,
 				BA8B452C29E7EEF7001B296C /* Cosmos.swift */,
 				BAF14A9129F23DCF000405EC /* Litecoin.swift */,
+				AC51DE092A65286000E6A6C5 /* Evm.swift */,
 				BAF14A9329F278B1000405EC /* Dash.swift */,
 				BAF14A9529F27C9E000405EC /* Bch.swift */,
 				ACC669BB29F903E800F43A10 /* Near.swift */,
@@ -251,6 +254,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC51DE0A2A65286000E6A6C5 /* Evm.swift in Sources */,
 				BADE245029FA890900661829 /* Arweave.swift in Sources */,
 				BA8B452B29E7ED67001B296C /* Solana.swift in Sources */,
 				BAF14A9629F27C9E000405EC /* Bch.swift in Sources */,
@@ -484,7 +488,7 @@
 			repositoryURL = "https://github.com/KeystoneHQ/keystone-sdk-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.5.0;
+				minimumVersion = 0.5.1;
 			};
 		};
 		BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
