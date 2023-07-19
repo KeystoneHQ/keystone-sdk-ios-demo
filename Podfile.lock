@@ -1,0 +1,78 @@
+PODS:
+  - BCCrypto (0.8.1):
+    - BCWally (~> 0.1.0)
+    - CryptoBase (~> 0.1.0)
+    - CryptoSwift (~> 1.7.1)
+    - secp256k1SwiftLib (~> 0.8.0)
+    - SSKR (~> 0.1.0)
+    - WolfBase (~> 5.3.1)
+  - BCFloat16 (0.2.1)
+  - BCWally (0.1.0)
+  - CryptoBase (0.1.0)
+  - CryptoSwift (1.7.1)
+  - DCBOR (0.9.2):
+    - BCFloat16 (~> 0.2.0)
+    - OrderedCollections (~> 1.0.4)
+    - SortedCollections (~> 1.1.0)
+    - WolfBase (~> 5.3.1)
+  - KeystoneSDK (0.5.1):
+    - URKit (~> 10.0.1)
+    - URRegistryFFI (~> 0.1.1)
+  - OrderedCollections (1.0.4)
+  - secp256k1SwiftLib (0.8.0):
+    - CryptoSwift (~> 1.7.1)
+    - secp256k1Wrapper (~> 0.0.5)
+  - secp256k1Wrapper (0.0.5)
+  - SortedCollections (1.1.0)
+  - SSKR (0.1.0)
+  - SwiftAlgorithms (1.0.0)
+  - URKit (10.0.1):
+    - BCCrypto (~> 0.8.1)
+    - DCBOR (~> 0.9.2)
+  - URRegistryFFI (0.1.1)
+  - WolfBase (5.3.1):
+    - SwiftAlgorithms (~> 1.0.0)
+
+DEPENDENCIES:
+  - KeystoneSDK
+
+SPEC REPOS:
+  trunk:
+    - BCCrypto
+    - BCFloat16
+    - BCWally
+    - CryptoBase
+    - CryptoSwift
+    - DCBOR
+    - KeystoneSDK
+    - OrderedCollections
+    - secp256k1SwiftLib
+    - secp256k1Wrapper
+    - SortedCollections
+    - SSKR
+    - SwiftAlgorithms
+    - URKit
+    - URRegistryFFI
+    - WolfBase
+
+SPEC CHECKSUMS:
+  BCCrypto: bae78ef8430328ba4cf76a50e20ffcf1f2c8c5ad
+  BCFloat16: 67b729867143d75b37efdd9873b97c5449eb29ee
+  BCWally: ce8888ce4a72204c44bd9d51c5ebd7e5aca01b36
+  CryptoBase: c008c2fe03f4cce3a5d0710b154d5967de78a4b2
+  CryptoSwift: d3d18dc357932f7e6d580689e065cf1f176007c1
+  DCBOR: 74c9474bbe297baa92bdb0a1184ed688b39cb0e2
+  KeystoneSDK: 5c1c27e286ba4ac27f8b09f7ba0c3ccf6c7cf61f
+  OrderedCollections: c754ce5f9e42cf22b73afd73582317347903ab6d
+  secp256k1SwiftLib: 0f9311d29f6d03542c028f9a0a22d4664cb3b3c9
+  secp256k1Wrapper: 0378417cd06d51187bbc9e178ec318e7902e2120
+  SortedCollections: 4bb347f34cb7383578fb7e3157287abe3e420c63
+  SSKR: 278742c9905b65f4f1dda2ee337016ef2182c9da
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  URKit: bd2db23b676cbfc0eae8d23d43b9d0cccb994a48
+  URRegistryFFI: 9b4322d447530bcc171b19d9fc1250815dc1a74e
+  WolfBase: 49f3483da23d6f76aa4ffeaff61b90c31d3fcfac
+
+PODFILE CHECKSUM: 9d897f7301e7ffc51a25b908523918fe1dacb4f0
+
+COCOAPODS: 1.12.1
