@@ -14,7 +14,7 @@ struct Tron: View {
     private let parseFn = KeystoneSDK().tron.parseSignature;
     @State var result = "";
 
-    private func onScanSucceed(result: Signature){
+    private func onScanSucceed(result: TronSignature){
         self.result = "Scan result: \(result)"
     }
     
@@ -32,7 +32,7 @@ struct Tron: View {
         VStack {
             Text("Sign Tron Transaction")
             AnimatedQRCode(urEncoder: self.encoder)
-            AnimatedScanner<Signature>(
+            AnimatedScanner<TronSignature>(
                 parseFn: parseFn,
                 onSucceed: onScanSucceed,
                 onError: onScanFailed
