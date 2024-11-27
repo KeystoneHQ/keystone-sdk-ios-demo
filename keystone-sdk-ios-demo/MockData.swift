@@ -213,7 +213,7 @@ class MockData {
             CardanoSignRequest.Utxo(
                 transactionHash: "4e3a6e7fdcb0d0efa17bf79c13aed2b4cb9baf37fb1aa2e39553d5bd720c5c99",
                 index: 3,
-                amount: 10000000,
+                amount: "10000000",
                 xfp: "73c5da0a",
                 hdPath: "m/1852'/1815'/0'/0/0",
                 address: "addr1qy8ac7qqy0vtulyl7wntmsxc6wex80gvcyjy33qffrhm7sh927ysx5sftuw0dlft05dz3c7revpf7jx0xnlcjz3g69mq4afdhv"
@@ -221,7 +221,7 @@ class MockData {
             CardanoSignRequest.Utxo(
                 transactionHash: "4e3a6e7fdcb0d0efa17bf79c13aed2b4cb9baf37fb1aa2e39553d5bd720c5c99",
                 index: 4,
-                amount: 18020000,
+                amount: "18020000",
                 xfp: "73c5da0a",
                 hdPath: "m/1852'/1815'/0'/0/1",
                 address: "addr1qyz85693g4fr8c55mfyxhae8j2u04pydxrgqr73vmwpx3azv4dgkyrgylj5yl2m0jlpdpeswyyzjs0vhwvnl6xg9f7ssrxkz90"

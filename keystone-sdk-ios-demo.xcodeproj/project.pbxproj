@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		97DFCD4C2CF5D5CE005F340B /* ZcashAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFCD4B2CF5D5C8005F340B /* ZcashAccountsView.swift */; };
 		AC484ED82A16045100F0FAB6 /* Sui.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC484ED72A16045100F0FAB6 /* Sui.swift */; };
 		AC51DE0A2A65286000E6A6C5 /* Evm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51DE092A65286000E6A6C5 /* Evm.swift */; };
 		AC816EE42A41446A00D3ED1A /* KeystoneSDK in Frameworks */ = {isa = PBXBuildFile; productRef = AC816EE32A41446A00D3ED1A /* KeystoneSDK */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		97DFCD4B2CF5D5C8005F340B /* ZcashAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZcashAccountsView.swift; sourceTree = "<group>"; };
 		AC484ED72A16045100F0FAB6 /* Sui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sui.swift; sourceTree = "<group>"; };
 		AC51DE092A65286000E6A6C5 /* Evm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evm.swift; sourceTree = "<group>"; };
 		ACC669BB29F903E800F43A10 /* Near.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Near.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 		BA8B452E29E7EFF4001B296C /* ConnectWallet */ = {
 			isa = PBXGroup;
 			children = (
+				97DFCD4B2CF5D5C8005F340B /* ZcashAccountsView.swift */,
 				BA8B452F29E7F00F001B296C /* MultiAccountsView.swift */,
 				BADE245129FBC0AC00661829 /* ArweaveAccount.swift */,
 			);
@@ -207,7 +210,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					BAFEF14629D2B4C1004AF670 = {
 						CreatedOnToolsVersion = 14.2;
@@ -266,6 +269,7 @@
 				BAF14A9829F4DFD7000405EC /* Aptos.swift in Sources */,
 				BA8B453029E7F00F001B296C /* MultiAccountsView.swift in Sources */,
 				BA8B452529E7B119001B296C /* Bitcoin.swift in Sources */,
+				97DFCD4C2CF5D5CE005F340B /* ZcashAccountsView.swift in Sources */,
 				BA8B452729E7E06E001B296C /* Ethereum.swift in Sources */,
 				BAF14A9229F23DCF000405EC /* Litecoin.swift in Sources */,
 				ACC669BC29F903E800F43A10 /* Near.swift in Sources */,
@@ -317,6 +321,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -377,6 +382,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -488,7 +494,7 @@
 			repositoryURL = "https://github.com/KeystoneHQ/keystone-sdk-ios.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.5.1;
+				minimumVersion = 0.8.4;
 			};
 		};
 		BAFEF15A29D2B91A004AF670 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {

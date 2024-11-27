@@ -19,6 +19,7 @@ struct MainView: View {
     let chains: [ChainView] = [
         ChainView(name: "Connect Wallet (MultiAccounts)", view: AnyView(MultiAccountsView())),
         ChainView(name: "Connect Wallet (ArweaveAccount)", view: AnyView(ArweaveAccountView())),
+        ChainView(name: "Connect Wallet (Zcash)", view: AnyView(ZcashAccountsView())),
         ChainView(name: "Bitcoin", view: AnyView(Bitcoin(psbt: MockData.psbt))),
         ChainView(name: "Ethereum", view: AnyView(Ethereum(ethSignRequest: MockData.ethSignRequest))),
         ChainView(name: "Solana", view: AnyView(Solana(solSignRequest: MockData.solSignRequest))),
