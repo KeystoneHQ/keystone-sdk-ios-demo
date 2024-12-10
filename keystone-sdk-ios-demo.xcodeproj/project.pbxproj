@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		975D6BC22D0836330068A3D3 /* Zcash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 975D6BC12D0836330068A3D3 /* Zcash.swift */; };
 		97DFCD4C2CF5D5CE005F340B /* ZcashAccountsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97DFCD4B2CF5D5C8005F340B /* ZcashAccountsView.swift */; };
 		AC484ED82A16045100F0FAB6 /* Sui.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC484ED72A16045100F0FAB6 /* Sui.swift */; };
 		AC51DE0A2A65286000E6A6C5 /* Evm.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC51DE092A65286000E6A6C5 /* Evm.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		975D6BC12D0836330068A3D3 /* Zcash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zcash.swift; sourceTree = "<group>"; };
 		97DFCD4B2CF5D5C8005F340B /* ZcashAccountsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZcashAccountsView.swift; sourceTree = "<group>"; };
 		AC484ED72A16045100F0FAB6 /* Sui.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sui.swift; sourceTree = "<group>"; };
 		AC51DE092A65286000E6A6C5 /* Evm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Evm.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				BAF14A9729F4DFD7000405EC /* Aptos.swift */,
 				BA8B452129E7AE08001B296C /* Tron.swift */,
 				BA8B452429E7B119001B296C /* Bitcoin.swift */,
+				975D6BC12D0836330068A3D3 /* Zcash.swift */,
 				BA8B452629E7E06E001B296C /* Ethereum.swift */,
 				BA8B452A29E7ED67001B296C /* Solana.swift */,
 				BA8B452C29E7EEF7001B296C /* Cosmos.swift */,
@@ -270,6 +273,7 @@
 				BA8B453029E7F00F001B296C /* MultiAccountsView.swift in Sources */,
 				BA8B452529E7B119001B296C /* Bitcoin.swift in Sources */,
 				97DFCD4C2CF5D5CE005F340B /* ZcashAccountsView.swift in Sources */,
+				975D6BC22D0836330068A3D3 /* Zcash.swift in Sources */,
 				BA8B452729E7E06E001B296C /* Ethereum.swift in Sources */,
 				BAF14A9229F23DCF000405EC /* Litecoin.swift in Sources */,
 				ACC669BC29F903E800F43A10 /* Near.swift in Sources */,
